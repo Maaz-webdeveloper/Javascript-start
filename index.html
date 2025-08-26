@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js"></script>
+</head>
+<body>
+    <h1 align="center">TYPES OF VARIABLES</h1>
+    <h2>var</h2>
+    <script>
+        var a="hello world";
+        var b="wow";
+        a="hi";
+        document.write(a,b);//print hiwow
+    </script>
+    <br><br>
+    <script>
+        var first,second;
+        first=40;
+        second=88;
+        document.write(first+second); //print 128
+    </script>
+    <br><br>
+    <script>
+            var x = "hello";
+             var  y= "world";
+             var z = x + " " + y; 
+             document.write(z);//print hello world
+    </script>
+    <br><br>
+    <script>
+       /* var ko 2 bar declare kr skta hain aur value bhi asign kr skta hain*/
+        var x="hi";
+        var x="hi";
+        x="wow";
+        document.write(x);//print wow
+    </script>
+    <br><br>
+<h2>let</h2>   
+<script>
+    // let ko 2 bar likh ka declare ni kr skta lekin value assign kr skta hain.
+    let c="maaz";
+    // let c="maaz";
+    c="hi";
+    document.write(c);//print hi
+</script>
+<br><br>
+<h1>const</h1> 
+<script>
+    // const ma na hi dobara declare kr skta hain aur na hi value asign kr skta hain warna (ERROR) ay ga.
+    const d="world";
+    // d="hello";
+    document.write(d);
+</script>
+<br><br>
+<script>
+    // alert karna ka lia use hota ha
+    alert("warning");
+</script>
+<img src="./Screenshot 2024-07-21 201928.png" alt="" height="600px" width="700px">
+<h1>Practical</h1>
+<script>
+    /*ya hum console ma bhi chk kr skta hain sub sa phla console ma jain ga udhar z likhain ga phir us ki type likhain ga.isi tran 
+    agla step ma bhi asa kr ka dakh skta hain*/
+    var m="Google Baba";  
+    var n=67;     
+    var o=false;
+    var p;
+    var q=null;
+    var r=[1,2,3,4];
+    
+// document .write kr bhi dakh skta ka is ki type konsi ha
+    var z=86;
+    document.write(z);
+    document.write("<br>");
+    document.write(typeof z);
+
+</script>
+<br><br>
+<img src="./Screenshot 2024-07-22 202446.png" alt="" height="500px" width="500px">
+<h4>console ma chk kro</h4>
+<br><br><br><br><br><br><br>
+
+<img src="./Screenshot 2024-08-07 223439.png" alt="" height="500px" width="500px">
+<br><br>
+<script>
+    var a=12;
+    var b=4;
+    a+=b; //same as a=a+b;
+    document.write(a); //print 16
+</script>
+<br>
+<script>
+    var a=8;
+    var b=3;
+    a*=b; //same as a=a*b;
+    document.write(a);//print 24
+</script>
+<br>
+<script>
+    var x=20;
+    var y=2;
+    x/=y; //same as x=x/y;
+    document.write(x);//print 10
+</script>
+<br>
+<script>
+    var a=40;
+    var b=2;
+    a%=y; //same as x=x%y;
+    document.write(a);//print 0
+</script>
+<br>
+<script>
+    var a=5;
+    var b=2;
+    a**=y; //same as a=a**b;
+    document.write(a);//print 25
+</script>
+<br>
+<img src="./Screenshot 2024-08-09 201838.png" alt="" height="500px" width="500px">
+<h5> console ma chk karo</h5>
+<br><br>
+<h2>conditional statements</h2>
+<script>
+    var a=20;
+    var b=10;
+   if(a>b){
+    document.write("a is greater")
+   }//print a is greater
+</script>
+<br><br>
+<script>
+    var x=15;
+    if(x>17){
+        document.write("x is greater");
+    }
+    if(x<17){
+        document.write("x is not greater");
+    }//x is not greater
+</script>
+<br>
+<script>
+    let mode ="dark";
+    let color;
+
+    if(mode === "dark"){
+        color="black";
+    }
+
+    if(mode === "light"){
+        color = "white;"
+    }
+    document.write(color);//print black
+</script>
+<br>
+<!-- <script>
+    let a=6;
+    let b=5;
+    console.log !(a<b);
+</script> -->
+</body>
+</html>
